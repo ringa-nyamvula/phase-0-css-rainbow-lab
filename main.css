@@ -1,11 +1,52 @@
-div {
-  border: 20px solid #000; /* this is short hand for setting
-                            the border's width, its type, and color */
-  display: inline-block; /* a way of positioning elements */
-  min-width: 20em; /* the two min styles make the shape */
-  min-height: 25em; /* of the divs oblong*/
-  border-radius: 50%; /* this makes the normally square div round */
-  border-left-color: transparent; /* these remove the color from the left side */
-  border-right-color: transparent; /* the right side */
-  border-bottom-color: transparent; /* and the bottom of the circle */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.rainbow {
+	display: flex;
+	flex-wrap: wrap;
+	height: 500px;
+}
+
+.red {
+	flex-basis: 100%;
+	background-color: #FF0000;
+	height: 16.66667%;
+}
+
+.orange {
+	flex-basis: 100%;
+	background-color: #FFA500;
+	height: 16.66667%;
+}
+
+.yellow {
+	flex-basis: 100%;
+	background-color: #FFFF00;
+	height: 16.66667%;
+}
+
+.green {
+	flex-basis: 100%;
+	background-color: #008000;
+	height: 16.66667%;
+}
+
+.blue {
+	flex-basis: 100%;
+	background-color: #0000FF;
+	height: 16.66667%;
+}
+
+.indigo {
+	flex-basis: 100%;
+	background-color: #4B0082;
+	height: 16.66667%;
+}
+
+.violet{
+  flex-basis: 100%;
+	background-color: #EE82EE;
+	height: 16.66667%;
 }
